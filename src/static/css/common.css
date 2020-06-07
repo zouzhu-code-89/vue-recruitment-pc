@@ -1,0 +1,221 @@
+/* 初始化配置 */
+*{
+    list-style: none;
+    font-family: arial,verdana,helvetica,'PingFang SC','HanHei SC',STHeitiSC-Light,Microsoft Yahei,sans-serif;;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.center-1000{
+    width: 1000px;
+    margin: 0 auto;
+}
+.center-1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+.center-1250{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+
+
+/* 公共组件 */
+.new{
+    position: relative;
+}
+.new::before{
+    content: 'New';
+    position: absolute;
+    width: 30px;
+    height: 14px;
+    line-height: 13px;
+    background-color: #ef505e;
+    color: #FFFFFF;
+    font-size: 12px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    top: 7px;
+    text-align: center;
+}
+.hot{
+    position: relative;
+}
+.hot::before{
+    content: 'hot';
+    position: absolute;
+    width: 30px;
+    height: 14px;
+    line-height: 13px;
+    background-color: #ef505e;
+    color: #FFFFFF;
+    font-size: 12px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    top: 7px;
+    left: 75px;
+    text-align: center;
+}
+
+
+/* 字体大小 */
+.fs-12{
+    font-size: 12px;
+    font-weight: 400;
+}
+.fsb-12{
+    font-size: 12px;
+    font-weight: 400;
+}
+.fs-13{
+    font-size: 13px;
+    font-weight: 400;
+}
+.fsb-13{
+    font-size: 13px;
+    font-weight: 400;
+}
+.fs-14{
+    font-size: 14px;
+    font-weight: 400;
+}
+.fsb-14{
+    font-size: 14px;
+    font-weight: 400;
+}
+.fs-16{
+    font-size: 16px;
+    font-weight: 400;
+}
+.fsb-16{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* 文字行高 */
+.lh-40{
+    line-height: 40px;
+}
+
+/* 颜色 */
+.cc00d7c6{
+    color: #00d7c6;
+}
+.cc5DD5C8{
+    color: #5DD5C8;
+}
+.cc414a60{
+    color: #414a60;
+}
+.cc8d92a1{
+    color: #8d92a1;
+}
+.ccA9ACB8{
+    color: #A9ACB8;
+}
+.ccFFFFFF{
+    color: #FFFFFF !important;
+}
+.cc333333{
+    color: #333333;
+}
+.cc666666{
+    color: #666666;
+}
+.cc999999{
+    color: #999999;
+}
+
+/* 外边距 */
+.ml-10{
+    margin-left: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.ml-25{
+    margin-left: 25px;
+}
+.mr-25{
+    margin-right: 25px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.ml-30{
+    margin-left: 30px;
+}
+.mr-30{
+    margin-right: 30px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.ml-35{
+    margin-left: 35px;
+}
+.mr-35{
+    margin-right: 35px;
+}
+.mt-35{
+    margin-top: 35px;
+}
+.mb-35{
+    margin-bottom: 35px;
+}
+.ml-40{
+    margin-left: 40px;
+}
+.mr-40{
+    margin-right: 40px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
