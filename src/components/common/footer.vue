@@ -1,5 +1,5 @@
 <template>
-    <div class="footer center-1200">
+    <div class="footer center-1200 mt-30">
         <!-- footer_left -->
         <div class="footer_left uk-flex uk-flex-between">
             <!--  -->
@@ -40,7 +40,7 @@
             </div>
             <!-- 上班时间 -->
             <div class="uk-text-right">
-                <h3 class="ccA9ACB8">BOSS直聘</h3>
+                <h3 class="ccA9ACB8" style="font-weight: 500;">BOSS直聘</h3>
                 <p class="fs-13 cc8d92a1 uk-margin-small-bottom">企业服务热线和举报投诉 400 065 5799</p>
                 <p class="fs-13 cc8d92a1 uk-margin-small-bottom uk-margin-remove-top">工作日 8:00 - 22:00</p>
                 <p class="fs-13 cc8d92a1 uk-margin-small-bottom uk-margin-remove-top">休息日 9:30 - 18:30</p>
@@ -90,7 +90,7 @@
 
 <script>
 export default {
-    name: 'footer'
+    name: 'footering'
 }
 </script>
 

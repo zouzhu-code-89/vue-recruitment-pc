@@ -2,6 +2,8 @@
 *{
     list-style: none;
     font-family: arial,verdana,helvetica,'PingFang SC','HanHei SC',STHeitiSC-Light,Microsoft Yahei,sans-serif;;
+    margin: 0px;
+    padding: 0px;
 }
 h1,h2,h3,h4,h5,h6,p,span,a,ul,li{
     margin: 0px;
@@ -89,6 +91,14 @@ a:hover{
 }
 .fsb-14{
     font-size: 14px;
+    font-weight: 400;
+}
+.fs-15{
+    font-size: 15px;
+    font-weight: 400;
+}
+.fsb-15{
+    font-size: 15px;
     font-weight: 400;
 }
 .fs-16{
@@ -218,4 +228,12 @@ a:hover{
 }
 .mb-40{
     margin-bottom: 40px;
+}
+
+
+
+
+/* ========== 常用的背景颜色 ========== */
+.bcFFFFFF{
+    background-color: #FFFFFF;
 }

@@ -1,24 +1,14 @@
 <template>
   <div id="app">
-    <Header :header_home_start=false></Header>
-    <Footer></Footer>
+    <router-view></router-view>
   </div>
 </template>
 
 
-<script>
-import header from '@/components/common/header'
-import footer from '@/components/common/footer'
 
+<script>
 export default {
-  name: 'app',
-  components: {
-    Header: header,
-    Footer: footer
-  }
+  name: 'app'
 }
 </script>
 
-<style>
-
-</style>

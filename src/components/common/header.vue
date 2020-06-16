@@ -79,7 +79,7 @@
 <script>
 import {mapState} from 'vuex';
 export default {
-    name: 'header',
+    name: 'headering',
     props:{
         // 当前的导航处于一种什么样的状态
         header_home_start:{
