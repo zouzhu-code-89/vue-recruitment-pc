@@ -82,8 +82,45 @@ export default {
         border: 1px solid #E4E7ED;
     }
     .login{
-        width: 510px;
         padding: 35px 43px 0px 43px;
         box-sizing: border-box;
+    }
+    .login:hover{
+        animation: keyframes_animate_1 0.8s;
+    }
+    @keyframes keyframes_animate_1 {
+        0%{
+            transform: scale(1,1) rotate(0deg);
+        }
+        10%{
+            transform: scale(1.1,1.1) rotate(0deg);
+        }
+        20%{
+            transform: scale(1.1,1.1) rotate(10deg);
+        }
+        30%{
+            transform: scale(1.1,1.1) rotate(0deg);
+        }
+        40%{
+            transform: scale(1.1,1.1) rotate(-10deg);
+        }
+        50%{
+            transform: scale(1.1,1,1) rotate(0deg);
+        }
+        60%{
+            transform: scale(1.1,1.1) rotate(10deg);
+        }
+        70%{
+            transform: scale(1.1,1.1) rotate(0deg);
+        }
+        80%{
+            transform: scale(1.1,1.1) rotate(-10deg);
+        }
+        90%{
+            transform: scale(1.1,1,1) rotate(0deg);
+        }
+        100%{
+            transform: scale(1,1) rotate(0deg);
+        }
     }
 </style>

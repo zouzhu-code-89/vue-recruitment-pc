@@ -27,7 +27,7 @@
                                          :li_option_value='li_option_value'>
                         </SwitchComponent>
                     </div>
-                    <div>
+                    <div class="ml-20 uk-width-expand">
                         <!-- 登录组件 -->
                         <LoginComponent></LoginComponent>
                     </div>
@@ -35,7 +35,13 @@
             </div>
         </div>
         <!-- footer -->
-        <Footering></Footering>
+        <div style="background-color:#F0F2F5;padding: 60px 0px 20px 0px">
+            <div class='center-1000 mt-60'>
+                <img src="@/assets/home/footer-1.png" alt="">
+                <p class='uk-text-center' style='font-size:12px;color:#999999;'>Copyright © 2020 zhipin.com 京ICP备14013441号-5</p>
+            </div>
+        </div>
+        
     </div>
 </template>
 
