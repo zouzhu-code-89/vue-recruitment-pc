@@ -1,5 +1,5 @@
 <template>
-    <div class="footer center-1200 mt-30">
+    <div class="footer center-1200">
         <!-- footer_left -->
         <div class="footer_left uk-flex uk-flex-between">
             <!--  -->

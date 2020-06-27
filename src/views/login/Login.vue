@@ -41,18 +41,17 @@
                 <p class='uk-text-center' style='font-size:12px;color:#999999;'>Copyright © 2020 zhipin.com 京ICP备14013441号-5</p>
             </div>
         </div>
-        
     </div>
 </template>
 
 
 
 <script>
-import header from '@/components/common/header';
-import footer from '@/components/common/footer';
+import header from '@/components/common/Header';
+import footer from '@/components/common/Footer';
 import input_search from '@/components/home/input_search_1';
 import switch_component from '@/components/home/switcher';
-import login_component from '@/components/login/login_component.vue';
+import login_component from '@/components/LoginComponent.vue';
 
 export default {
     name: 'one_open_home',
