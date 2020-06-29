@@ -109,6 +109,10 @@ a:hover{
     font-size: 16px;
     font-weight: 400;
 }
+.fs-24{
+    font-size: 24px;
+    font-weight: 400;
+}
 
 /* 文字行高 */
 .lh-40{
@@ -149,7 +153,9 @@ a:hover{
 .ccFC7B6E{
     color: #FC7B6E;
 }
-
+.cc414A60{
+    color: #414A60;
+}
 
 
 /* ========== 常用的背景颜色 ========== */

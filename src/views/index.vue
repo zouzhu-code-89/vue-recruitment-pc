@@ -24,22 +24,37 @@
         </div>
         <!-- context2: 岗位搜索 + 热门职位推荐 -->
         <div class="center-1200">
-            <h2>context2: 岗位搜索 + 热门职位推荐</h2>
             <div class="uk-flex uk-flex-center">
                 <input type="text" placeholder="搜索职位、公司">
             </div>
             <div>热门职位</div>
         </div>
         <!-- context3: 职位展示块(切换器) -->
-        <div class="center-1200">
-            <h2>context3: 职位展示块(切换器)</h2>
+        <div class="center-1200 mb-20">
             <div class='uk-grid-small' uk-grid>
-                <div class="uk-width-1-3 home-sider">1</div>
-                <div class="uk-width-2-3 home-main">2</div>
+                <div class="uk-width-1-3 home-sider">
+                    <HomeJobSwitchComponent></HomeJobSwitchComponent>
+                </div>
+                <div class="uk-width-2-3 home-main">
+                    <div class="uk-grid-collapse" uk-grid>
+                        <div class="uk-width-2-3">
+                            <img src="@/assets/index/guangao_1.jpg" alt="guangao_1.jpg" class="uk-width-expand">
+                            <img src="@/assets/index/guangao_4.jpg" alt="guangao_1.jpg" class="uk-width-expand">
+                        </div>
+                        <div class="uk-width-1-3">
+                            <img src="@/assets/index/guangao_2.jpg" alt="guangao_2.jpg" class="uk-width-expand">
+                            <img src="@/assets/index/guangao_3.jpg" alt="guangao_3.jpg" class="uk-width-expand">
+                            <img src="@/assets/index/guangao_6.jpg" alt="guangao_6.jpg" class="uk-width-expand">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- context4: 热门招聘岗位 -->
         <div class="center-1200">
+            <div>
+                <HomeTitle titleName='热门职位'></HomeTitle>
+            </div>
             <!-- 经过测试里面的导航数据切换不是通过路由，而是通过 ajax 请求 -->
             <div class="uk-grid-small uk-child-width-1-3" uk-grid>
                 <div>
@@ -63,7 +78,7 @@
             </div>
         </div>
         <!-- context5: 热门招聘公司 -->
-        <div class="center-1200">
+        <div class="center-1200 pt-20">
             <div>
                 <HomeTitle titleName='热门企业'></HomeTitle>
             </div>
@@ -84,6 +99,7 @@ import FooterComponent from '@/components/common/Footer';
 import HomeTitle from '@/components/HomeBaseTitleComponent';
 import HomeBaseHotCompany from '@/components/HomeBaseHotCompany.vue';
 import HomeBaseHotOption from '@/components/HomeBaseHotOption.vue';
+import HomeJobSwitchComponent from '@/components/HomeJobSwitchComponent.vue';
 export default {
     name: 'Login',
     data: function(){
@@ -96,7 +112,8 @@ export default {
         FooterComponent,
         HomeTitle,
         HomeBaseHotCompany,
-        HomeBaseHotOption
+        HomeBaseHotOption,
+        HomeJobSwitchComponent
     }
 }
 </script>
@@ -111,9 +128,9 @@ export default {
     background-color: #5DD5C8;
 }
 .home-sider{
-    background-color: #5DD5C8;
+    /* background-color: #5DD5C8; */
 }
 .home-main{
-    background-color: red;
-}
+    /* background-color: #5DD5C8; */
+}  
 </style>
