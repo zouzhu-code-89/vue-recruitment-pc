@@ -9,13 +9,20 @@
                     <div>
                         <img src="@/assets/index/index_1_1.png" alt="index_1_1" style="width:354px">
                     </div>
-                    <div>
+                    <div class="pt-20 pl-130">
                         <img src="@/assets/index/index_1_2.png" alt="index_1_2" style="width:255px">
-                        <div>
-                            <form action="#" method="post">
-                                <input type="text">
-                                <input type="text">
-                                <input type="submit" value="登录/注册">
+                        <div class="mt-20">
+                            <form action="#" method="post" class="uk-flex">
+                                <div class="input_box bcFFFFFF mr-5">
+                                    <input type="text" placeholder="输入手机号">
+                                </div>
+                                <div class="input_box bcFFFFFF uk-inline">
+                                    <input type="text" placeholder="验证码">
+                                    <a href="#" class="get_code_link uk-position-center-right fs-12 mr-15">获取</a>
+                                </div>
+                                <div class="ml-5">
+                                    <input type="submit" value="登录/注册" class="submit_btn uk-button ccFFFFFF">
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -23,14 +30,14 @@
             </div>
         </div>
         <!-- context2: 岗位搜索 + 热门职位推荐 -->
-        <div class="center-1200">
-            <div class="uk-flex uk-flex-center">
-                <input type="text" placeholder="搜索职位、公司">
+        <div class="center-1200 mt-20">
+            <div style="width:934px;margin:0 auto">
+                 <HomeJobSearchComponent></HomeJobSearchComponent>
+                 <HomeJobHotLabel class="mt-10"></HomeJobHotLabel>
             </div>
-            <div>热门职位</div>
         </div>
         <!-- context3: 职位展示块(切换器) -->
-        <div class="center-1200 mb-20">
+        <div class="center-1200 mb-20 mt-25">
             <div class='uk-grid-small' uk-grid>
                 <div class="uk-width-1-3 home-sider">
                     <HomeJobSwitchComponent></HomeJobSwitchComponent>
@@ -100,6 +107,8 @@ import HomeTitle from '@/components/HomeBaseTitleComponent';
 import HomeBaseHotCompany from '@/components/HomeBaseHotCompany.vue';
 import HomeBaseHotOption from '@/components/HomeBaseHotOption.vue';
 import HomeJobSwitchComponent from '@/components/HomeJobSwitchComponent.vue';
+import HomeJobSearchComponent from '@/components/HomeJobSearchComponent.vue';
+import HomeJobHotLabel from '@/components/HomeJobHotLabel';
 export default {
     name: 'Login',
     data: function(){
@@ -113,7 +122,9 @@ export default {
         HomeTitle,
         HomeBaseHotCompany,
         HomeBaseHotOption,
-        HomeJobSwitchComponent
+        HomeJobSwitchComponent,
+        HomeJobSearchComponent,
+        HomeJobHotLabel
     }
 }
 </script>
@@ -127,10 +138,25 @@ export default {
 .index_context1_simple_login{
     background-color: #5DD5C8;
 }
-.home-sider{
-    /* background-color: #5DD5C8; */
+.input_box{
+    width: 170px;
+    height: 36px;
+    position: relative;
+    padding: 5px 10px;
+    box-sizing: border-box;
 }
-.home-main{
-    /* background-color: #5DD5C8; */
-}  
+.input_box input::placeholder{
+    color: #B7BAC3;
+    font-size: 13px;
+}
+.get_code_link{
+    color: #54CBC4;
+}
+.submit_btn{
+    background: none;
+    border: 1px solid #FFFFFF !important;
+    height: 36px !important;
+    padding: 0px 15px !important;
+    font-size: 12px !important;
+}
 </style>

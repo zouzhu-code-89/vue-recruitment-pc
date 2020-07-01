@@ -2,7 +2,7 @@
     module_name: CompanyDetailPage(公司详情页)
 -->
 <template>
-  <div>
+    <div>
         <div class="center">
             <h1>公司详情页</h1>
         </div>

@@ -109,6 +109,10 @@ a:hover{
     font-size: 16px;
     font-weight: 400;
 }
+.fs-16{
+    font-size: 18px;
+    font-weight: 400;
+}
 .fs-24{
     font-size: 24px;
     font-weight: 400;
@@ -169,6 +173,9 @@ a:hover{
 
 
 /* 外边距 */
+.m-5{
+    margin: 5px;
+}
 .ml-5{
     margin-left: 5px;
 }
@@ -269,6 +276,7 @@ a:hover{
 
 
 
+
 /* ========== 公共的字号 ========== */
 .p-10{
     padding: 10px;
@@ -302,6 +310,9 @@ a:hover{
 }
 .p-30{
     padding: 30px;
+}
+.pl-130{
+    padding-left: 130px !important;
 }
 
 
