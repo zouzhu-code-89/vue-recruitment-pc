@@ -62,6 +62,9 @@
             <div>
                 <HomeTitle titleName='热门职位'></HomeTitle>
             </div>
+            <div>
+                <HomeJobHotSwitchNavComponent></HomeJobHotSwitchNavComponent>
+            </div>
             <!-- 经过测试里面的导航数据切换不是通过路由，而是通过 ajax 请求 -->
             <div class="uk-grid-small uk-child-width-1-3" uk-grid>
                 <div>
@@ -109,6 +112,7 @@ import HomeBaseHotOption from '@/components/HomeBaseHotOption.vue';
 import HomeJobSwitchComponent from '@/components/HomeJobSwitchComponent.vue';
 import HomeJobSearchComponent from '@/components/HomeJobSearchComponent.vue';
 import HomeJobHotLabel from '@/components/HomeJobHotLabel';
+import HomeJobHotSwitchNavComponent from '@/components/HomeJobHotSwitchNavComponent';
 export default {
     name: 'Login',
     data: function(){
@@ -124,7 +128,8 @@ export default {
         HomeBaseHotOption,
         HomeJobSwitchComponent,
         HomeJobSearchComponent,
-        HomeJobHotLabel
+        HomeJobHotLabel,
+        HomeJobHotSwitchNavComponent
     }
 }
 </script>
