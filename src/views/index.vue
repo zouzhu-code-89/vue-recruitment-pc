@@ -1,7 +1,6 @@
 <!-- 首页 -->
 <template>
     <div class='index_page'>
-        <HeaderComponent></HeaderComponent>
         <!-- Context1: 首页便捷登录模块 -->
         <div class="index_context1_simple_login">
             <div class="center-1200">
@@ -63,7 +62,9 @@
                 <HomeTitle titleName='热门职位'></HomeTitle>
             </div>
             <div>
-                <HomeJobHotSwitchNavComponent></HomeJobHotSwitchNavComponent>
+                <keep-alive>
+                    <HomeJobHotSwitchNavComponent></HomeJobHotSwitchNavComponent>
+                </keep-alive>
             </div>
             <!-- 经过测试里面的导航数据切换不是通过路由，而是通过 ajax 请求 -->
             <div class="uk-grid-small uk-child-width-1-3" uk-grid>

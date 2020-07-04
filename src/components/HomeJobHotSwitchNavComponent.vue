@@ -28,7 +28,13 @@ export default {
     },
     methods:{
         cur: function(e){
-            console.log($);
+            if(this.initCur){
+                this.initCur = false;
+                this.beforeCur = e.target;
+            }
+            this.beforeCur.setAttribute('class','');
+            this.beforeCur = e.target;
+            e.target.setAttribute('class', 'cur');
         }
     }
 }
@@ -51,7 +57,7 @@ export default {
         color: #8d92a1;
         cursor: pointer;
         font-weight: 400;
-        margin-right: 45px;
+        margin-right: 80px;
     }
     .cur{
         color: #00c2b3;
