@@ -13,10 +13,6 @@
             <div>
                 <div>
                     <PositionDataViewComponent></PositionDataViewComponent>
-                    <PositionDataViewComponent></PositionDataViewComponent>
-                    <PositionDataViewComponent></PositionDataViewComponent>
-                    <PositionDataViewComponent></PositionDataViewComponent>
-                    <PositionDataViewComponent></PositionDataViewComponent>
                 </div>
             </div>
             <div></div>
@@ -35,5 +31,15 @@ export default {
 </script>
 
 <style>
-
+.position-list-main{
+    height:1000px;
+}
 </style>
+
+
+
+
+
+
+
+
