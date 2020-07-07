@@ -8,7 +8,7 @@
 <template>
     <div class="home_new">
         <!-- header -->
-        <Headering></Headering>
+        <!-- <Headering></Headering> -->
         <!-- home main box context -->
         <div class="main">
             <div class="center-1000 mt-25">

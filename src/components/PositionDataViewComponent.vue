@@ -35,6 +35,17 @@
 
 <script>
 export default {
+    name: 'PositionDataViewComponent',
+    props: {
+        pmProps: {
+            type: Object,
+            default: function(){
+                return {
+                    
+                }
+            }
+        }
+    }
 }
 </script>
 
@@ -43,5 +54,6 @@ export default {
     background-color: #ffffff;
     padding: 20px 30px 0px 30px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 </style>
